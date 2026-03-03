@@ -227,7 +227,7 @@ The system simulates a real-world retail management workflow including product m
 # 👨‍💻 Author
 
 **Nguyễn Minh Khang**  
-Fresher QA / Manual Tester  
+Manual Tester  
 
 **Nguyễn Tấn Phát**  
 Developer  
