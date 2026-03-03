@@ -1,207 +1,230 @@
-# 🏪 HỆ THỐNG QUẢN LÝ CỬA HÀNG THỂ THAO
+# 🏪 SPORT STORE MANAGEMENT SYSTEM
 
-## 📌 Giới thiệu dự án
+## 📌 Project Overview
 
-Đây là dự án học tập thuộc môn **Công nghệ Phần mềm**, tập trung vào:
+This project is a **Sport Store Management System** developed for academic purposes.  
+The system simulates a real-world retail management workflow including product management, employee management, order processing, and revenue reporting.
 
-- Phân tích yêu cầu hệ thống
-- Thiết kế test case
-- Thực hiện Manual Testing
-- Kiểm thử luồng nghiệp vụ bán hàng
-
-Hệ thống mô phỏng phần mềm quản lý cửa hàng thể thao với các chức năng thực tế như quản lý sản phẩm, nhân viên, đơn hàng và thống kê doanh thu.
-
----
-
-## 🎯 Mục tiêu đạt được
-
-- Phân tích yêu cầu từ góc nhìn người dùng
-- Thiết kế test case dựa trên nghiệp vụ thực tế
-- Thực hiện kiểm thử chức năng (Functional Testing)
-- Báo cáo và theo dõi lỗi
-- Hiểu quy trình phát triển phần mềm (SDLC)
+🎯 Role in project:
+- Requirement analysis
+- Test case design
+- Manual functional testing
+- Bug reporting & validation
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## 🛠 Tech Stack
 
-- **Ngôn ngữ:** C#
-- **Framework:** .NET MVC
-- **Database:** SQL Server
-- **IDE:** Visual Studio
-- **Testing:** Manual Testing
-
----
-
-# 🖥 Giao diện & Chức năng hệ thống
+- Language: C#
+- Framework: .NET MVC
+- Database: SQL Server
+- IDE: Visual Studio
+- Testing Type: Manual Testing
 
 ---
 
-## 🔐 1. Màn hình Đăng nhập
-
-![Đăng nhập](https://drive.google.com/uc?export=view&id=1n31KOL71R228hGyeMOhRIEItz1Sz95jY)
-
-**Mô tả:**
-- Xác thực Email và Mật khẩu
-- Phân quyền người dùng (Admin / Nhân viên)
-- Validate dữ liệu đầu vào
+# 🖥 SYSTEM WORKFLOW & INTERFACE
 
 ---
 
-## 🏠 2. Trang Home
+## 🔐 1. Login Page
 
-![Home](https://drive.google.com/uc?export=view&id=1TNdrSq6EWU8M5XzM-eUXuOChN-k_z0xX)
+![Login](https://drive.google.com/uc?export=view&id=144oAEJVclMy3PSMTX13Akwnd6xF9DeAa)
 
-**Mô tả:**
-- Giao diện chính sau khi đăng nhập
-- Thanh menu điều hướng các chức năng
-- Thiết kế trực quan, dễ sử dụng
-
----
-
-## 👨‍💼 3. Quản lý nhân viên
-
-![Quản lý nhân viên](https://drive.google.com/uc?export=view&id=11BqEyUCNorMgqdyjdoiauB_gSu4oS7_n)
-
-**Chức năng:**
-- Thêm / Sửa / Xóa nhân viên
-- Tìm kiếm theo tên
-- Quản lý cấp bậc & lương
-- Phân quyền hệ thống
+**Description:**
+- User authentication (Email & Password)
+- Role-based access (Admin / Staff)
+- Input validation
 
 ---
 
-## 📦 4. Danh sách sản phẩm
+## 🏠 2. Home Dashboard
 
-![Danh sách sản phẩm](https://drive.google.com/uc?export=view&id=1Cjintlz2Ec6L44KJvyETMJXz8xy1rqxv)
+![Home](https://drive.google.com/uc?export=view&id=1e2mHyy8vNPPd-WlM93CrHwX5RQkdVhI8)
 
-**Chức năng:**
-- Hiển thị danh sách sản phẩm
-- Tìm kiếm theo tên
-- Quản lý tồn kho
-- Xem chi tiết sản phẩm
-
----
-
-## ➕ 5. Thêm sản phẩm
-
-![Thêm sản phẩm](https://drive.google.com/uc?export=view&id=1jXZja1kkHrKR7u4f7oEUCHOI5sR79wrT)
-
-**Chức năng:**
-- Nhập thông tin sản phẩm
-- Upload hình ảnh
-- Chọn loại hàng, hãng sản xuất
-- Thiết lập bảo hành & số lượng
+**Description:**
+- Navigation menu
+- Overview interface after login
+- Quick access to main modules
 
 ---
 
-## ✏️ 6. Sửa sản phẩm
+## 👤 3. Personal Information
 
-![Sửa sản phẩm](https://drive.google.com/uc?export=view&id=1idHbuq-9NWbdeGRcqvgeZzxXtUEojQLE)
+![Personal Info](https://drive.google.com/uc?export=view&id=10sARrmBzfd-fzY_GOV49O3ey5HRAxctu)
 
-**Chức năng:**
-- Cập nhật thông tin sản phẩm
-- Thay đổi giá, tồn kho
-- Xem trước hình ảnh
-
----
-
-## 🧾 7. Quản lý đơn hàng
-
-![Quản lý đơn hàng](https://drive.google.com/uc?export=view&id=1ORoX4kit5jG5xKMkJ4zb1DAf7EESSYf1)
-
-**Chức năng:**
-- Danh sách hóa đơn
-- Tìm kiếm theo khách hàng
-- Xem chi tiết đơn hàng
-- Xóa đơn hàng
+**Description:**
+- View personal profile
+- Update user information
+- Account management
 
 ---
 
-## 📄 8. Chi tiết hóa đơn
-
-![Chi tiết hóa đơn](https://drive.google.com/uc?export=view&id=1CqpaLdIK7VBh_HmvQQtgcrQNsvRrzeSZ)
-
-**Mô tả:**
-- Hiển thị danh sách sản phẩm trong hóa đơn
-- Số lượng & đơn giá
-- Tổng tiền thanh toán
+# 📦 PRODUCT MANAGEMENT MODULE
 
 ---
 
-## 🧾 9. Bill xuất PDF
+## 📋 4. Product List
 
-![Bill](https://drive.google.com/uc?export=view&id=1vBq01yK6bBa2TKYxEx0WjCSKSpet4nO-)
+![Product List](https://drive.google.com/uc?export=view&id=1Cd1Iph2y-6qdBxp8Ttp-ZHuwb1H9knQw)
 
-**Mô tả:**
-- Xuất hóa đơn dạng PDF
-- Thông tin khách hàng & nhân viên
-- Danh sách sản phẩm
-- Tổng thanh toán
-
----
-
-## 📊 10. Tổng doanh thu
-
-![Tổng doanh thu](https://drive.google.com/uc?export=view&id=1vdJnYOUCWukGClNTCPS1padLJPKJW65u)
-
-**Chức năng:**
-- Thống kê doanh thu
-- Top sản phẩm bán chạy
-- Tình trạng tồn kho
-- Phần trăm khuyến mãi
+**Functions:**
+- View all products
+- Search by name
+- Manage stock quantity
+- View product details
 
 ---
 
-## 💳 11. Thanh toán QR Code
+## ➕ 5. Add New Product
 
-![QR Code](https://drive.google.com/uc?export=view&id=16qjF5tJyIE7PI0xIRpDfDXVywT7aCP7i)
+![Add Product](https://drive.google.com/uc?export=view&id=1EJmTToKB4O1M2P6_D71b7APaLK4CdQMl)
 
-**Mô tả:**
-- Tạo mã QR thanh toán
-- Hỗ trợ thanh toán điện tử
-- Tích hợp ví điện tử
-
----
-
-# 🧪 Phạm vi kiểm thử
-
-- Phân tích yêu cầu chức năng
-- Thiết kế Test Case
-- Kiểm thử:
-  - Login validation
-  - CRUD sản phẩm
-  - CRUD nhân viên
-  - Luồng tạo đơn hàng
-  - Tính toán tổng tiền
-  - Xuất hóa đơn PDF
-  - Kiểm tra thống kê doanh thu
-- Ghi nhận và báo cáo lỗi
+**Functions:**
+- Enter product information
+- Upload product image
+- Set warranty & quantity
+- Assign brand & category
 
 ---
 
-# 🔑 Tài khoản demo
+## ✏️ 6. Edit Product
 
-**Admin**  
-Email: admin@example.com  
-Password: admin123  
+![Edit Product](https://drive.google.com/uc?export=view&id=1IJLv2mh2gyevzH-0W-7s63m3znRfDFgk)
 
-**Nhân viên**  
-Email: staff@example.com  
-Password: staff123  
+**Functions:**
+- Update product information
+- Modify price and stock
+- Replace product image
 
 ---
 
-# 🚀 Hướng dẫn chạy dự án
+# 👨‍💼 EMPLOYEE MANAGEMENT MODULE
 
-1. Import file `databaseSql.sql` vào SQL Server
-2. Mở solution bằng Visual Studio
+---
+
+## 👥 7. Employee Management
+
+![Employee Management](https://drive.google.com/uc?export=view&id=1UTadPfQQCiCceWc8BKO6GSnasKPsEkCE)
+
+**Functions:**
+- Add / Edit / Delete employee
+- Search employee
+- Manage roles & salary
+- Access control management
+
+---
+
+# 🧾 ORDER & PAYMENT WORKFLOW
+
+---
+
+## 🛒 8. Order Placement Page
+
+![Order Page](https://drive.google.com/uc?export=view&id=1jYryNOI24AaznyMPlyLdD-O0VtVjywGD)
+
+**Functions:**
+- Select products
+- Adjust quantity
+- Add to cart
+- Calculate total amount
+
+---
+
+## 💳 9. Payment Page
+
+![Payment](https://drive.google.com/uc?export=view&id=1RY2p3WloMPvoHov9dMbYpj2LjWyHwB_t)
+
+**Functions:**
+- Confirm payment
+- Generate invoice
+- Support multiple payment methods
+
+---
+
+## 📱 10. QR Code Payment
+
+![QR Code](https://drive.google.com/uc?export=view&id=1ipZGQsJO0hTrWp15r6mDq9TM1auzjWNa)
+
+**Description:**
+- Generate QR code for digital payment
+- Integrate electronic wallet payment
+
+---
+
+## 📄 11. Invoice Detail (Chi Tiết Hóa Đơn)
+
+![Invoice Detail](https://drive.google.com/uc?export=view&id=1DYe-QoKl_5f5Kil1OXGH4EN-RrHIFmN1)
+
+**Description:**
+- List of purchased products
+- Quantity & unit price
+- Total payment calculation
+
+---
+
+## 🧾 12. Invoice Export (PDF Bill)
+
+![Bill](https://drive.google.com/uc?export=view&id=16zQI3on0VVze6YjAUKbXv2dM1zthwD8l)
+
+**Description:**
+- Export invoice to PDF
+- Customer & staff information
+- Detailed transaction summary
+
+---
+
+## 📊 13. Order Management
+
+![Order Management](https://drive.google.com/uc?export=view&id=1UuktMYiqsNKctAQFkHoM1D8wP0vEH_Mw)
+
+**Functions:**
+- View all orders
+- Search by customer
+- Delete order
+- View detailed invoice
+
+---
+
+# 📈 REPORTING & STATISTICS
+
+---
+
+## 📊 14. Revenue Statistics
+
+![Revenue](https://drive.google.com/uc?export=view&id=1qOodLgkEtTq4BWUcsgT_kXwq2x1CvYcu)
+
+**Features:**
+- Revenue summary
+- Best-selling products
+- Inventory status
+- Discount percentage tracking
+
+---
+
+# 🧪 TESTING SCOPE
+
+- Functional Testing
+- Login validation testing
+- CRUD Product testing
+- CRUD Employee testing
+- Order workflow testing
+- Payment & invoice validation
+- Revenue calculation verification
+- Bug reporting & retesting
+
+---
+
+# 🚀 How to Run
+
+1. Import `databaseSql.sql` into SQL Server
+2. Open solution in Visual Studio
 3. Build project
-4. Run chương trình
+4. Run application
 
 ---
 
-# 👤 Tác giả
+# 👨‍💻 Author
 
 **Nguyễn Minh Khang**  
 Fresher QA / Manual Tester  
